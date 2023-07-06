@@ -1,0 +1,15 @@
+Reference video: https://www.youtube.com/watch?v=-D-9yHX0QQA&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=35
+
+------
+
+1. Rewrite the exercise #3 in basicselenium > WebDriverInterfaceMethodsExercises.txt:
+- Only clicking on "Login By Credentials" tab if username textbox is not displayed
+- Check the 1st employee row' state before and after clicking action (ex: Print "First employee row is selected: false")
+- Check "View All Feedbacks" button' state before and after selecting an employee (ex: Print "View All Feedbacks is enabled: true")
+
+
+2. Implement test case CurrentPAProgram_ViewAllFeedbacks_GeneralInformation.txt
+Notes:
+- Get Employee column text of the selected row (1st row)
+- Get text of Appraisee
+

@@ -1,0 +1,52 @@
+Reference videos:
+Methods: https://www.youtube.com/watch?v=sxr38UagfbY&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=98
+Add Parameters: https://www.youtube.com/watch?v=ueSAZRUnAvw&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=99
+
+--------
+
+1. Is there any errors? If not, what is the output?
+Else please fix without changing the method increaseCount()
+
+private int count = 0;
+private String s = "Hello World!";
+
+public static void main(String[] args) {
+    LanguageBasic lb = new LanguageBasic();
+    System.out.println(lb.s);
+    System.out.println(LanguageBasic.count);
+    while (count < 10) {
+        increaseCount();
+        System.out.println(count);
+    }
+    System.out.println(lb.count);
+}
+
+public void increaseCount() {
+    count++;
+}
+
+2. Is there any errors? If not, what is the output?
+Else please fix without changing the method increaseCount()
+
+private static int count = 0;
+private String s = "Hello World!";
+
+public static void main(String[] args) {
+    LanguageBasic lb = new LanguageBasic();
+    System.out.println(lb.s);
+    System.out.println(LanguageBasic.count);
+    while (count < 10) {
+        increaseCount();
+        System.out.println(count);
+    }
+    System.out.println(lb.count);
+}
+
+public static void increaseCount() {
+    count++;
+}
+
+3. Replace the scanner method (line 20-23) in the class IfElseDemo by a string array.
+Example: string[] sampleStrings = {" ", "t", "te", "test"};
+Create methods to follow DRY (don't repeat yourself) 
+and test all the if-else statements types for each string in the array.

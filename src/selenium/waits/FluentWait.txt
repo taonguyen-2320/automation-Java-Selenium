@@ -1,0 +1,6 @@
+Video: https://www.youtube.com/watch?v=EihPj2o0U04
+
+Copy the ExplicitWait exercise to a new class and replace explicit wait with fluent wait
+
+Advance:
+- Instead of using ExpectedCondition, write your own method and pass it to wait.until

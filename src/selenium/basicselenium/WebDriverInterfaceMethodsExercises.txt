@@ -1,0 +1,70 @@
+Reference videos: 
+- WebDriver: https://www.youtube.com/watch?v=sgV7YPhYRi0&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=11
+- Basic Methods in WebDriver: https://www.youtube.com/watch?v=DyMcEs6EWEQ&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=33
+- Basic Methods in WebDriver - part 2: https://www.youtube.com/watch?v=FtpIv7T6G28&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=34
+
+------
+
+1. Rewrite the exercise #2 in LocatorsExercises.txt using WebDriver Interface
+
+2. Rewrite the exercise #1:
+- Maximum window before access to PA system
+- Print the page Title and URL before login
+- Print the page Title and URL after login
+
+3. Implement test case CurrentPAProgram_ViewAllFeedbacks.txt - Fill in the missing parts
+
+public static void main(String[] args) throws InterruptedException {
+		String browser = "Chrome";
+		String url = "http://192.168.59.48:8080/";
+		String testUsername = "thaovo";
+		String testPassword = "kms";
+		
+		By tabLoginByCredentialsLocator = By.linkText("Login By Credentials");
+		[...]
+		By btnViewFeedbackLocator = By.id("viewFeedback");
+		
+		System.out.println("Precondition: Login PA system successfully");
+		DemoSelenium demo = new DemoSelenium();
+		driver = demo.initDriver(browser);
+		[...]
+		driver.get(url);
+		
+		demo.printCurrentPageTitleAndUrl();
+		
+		[...]
+		driver.findElement(txtPasswordLocator).sendKeys(testPassword);
+		driver.findElement(btnLoginLocator).click();
+		
+		demo.printCurrentPageTitleAndUrl();
+
+		WebDriverWait wait = new WebDriverWait(driver, 1000);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(mnuCurrentPAProgramLocator));
+		driver.findElement(mnuCurrentPAProgramLocator).click();
+		driver.findElement(mnuFeedbackRequestLocator).click();
+		
+		[...]
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(dtlFirstEmployeeLocator));
+		driver.findElement(dtlFirstEmployeeLocator).click();
+		driver.findElement(btnViewFeedbackLocator).click();
+
+		[...]
+
+		demo.printCurrentPageTitleAndUrl();
+
+		driver.close();
+	}
+
+	[...]
+	
+	private void printCurrentPageTitleAndUrl() {
+		[...]
+	}
+}
+
+Notes:
+- Refer to https://www.selenium.dev/documentation/webdriver/interactions/windows/ for switching between tabs
+- Print the page Title and URL before navigating
+
+4. Replace driver.close() in exercise #3 by driver.quit(), what is the different between those 2 methods?

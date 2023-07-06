@@ -1,0 +1,7 @@
+Video: https://www.youtube.com/watch?v=resI3NLastE&t=442s
+
+Go to PA Test and login, navigate to http://192.168.59.48:8080/Feedbacks/Create/
+
+- Select "Provide FB" for dropdown list with option "Other Colleague"
+- When the Employee dropdownl list is displayed, search for employees whose name contains text "phuong"
+- Select a employee from the result list

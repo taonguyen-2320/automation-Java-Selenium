@@ -1,0 +1,19 @@
+Reference video: https://www.youtube.com/watch?v=rOczbXi8Ll4&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=12
+
+-----
+
+1. Are there any errors in the below main method? 
+
+        public static void main(String[] args) {
+                ChromeDriver driver = new ChromeDriver();
+                driver.get("http://192.168.59.48:8080/");
+				driver.findElement(By.id("username")).sendKeys("thaovo");
+				driver.findElement(By.id("password")).sendKeys("kms");
+				driver.findElement(By.id("btnSubmit")).click();
+                driver.close();
+        }
+
+If yes, please list out the error(s).
+
+2. Fix the main method in exercise #1 so that it could run for the TC in PASystemLoginSuccessfully.txt
+Should use findElement() and findElements() instead of findElementById(), findElementByLinkText()... because it won't support in Selenium 4

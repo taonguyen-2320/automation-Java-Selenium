@@ -1,0 +1,6 @@
+Reference video: https://www.youtube.com/watch?v=i_s1KoPlbWY&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=57
+
+------
+Login PA system > Select "Current PA Program" > Select "Review Org-Chart"
+Select Current PA Program > Select "360° Feedback Request" > Select an employee and click on "View All Feedbacks" > Switch to View Feedback tab
+Take screenshot of each page and name it follow the pattern: PageTitle-Timestamp.png (Timestamp when the screenshot is captured)

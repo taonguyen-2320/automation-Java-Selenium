@@ -1,0 +1,12 @@
+Video:
+- https://www.youtube.com/watch?v=8LB_Zs9Ohg4
+- https://www.youtube.com/watch?v=2QSh7V2_-fQ
+
+Go to PA Test, login and navigate to http://192.168.59.48:8080/Feedbacks/SearchFull?pendingOnly=False
+
+- Select Feedbacks of my Subordinates
+- Click Search button
+- In the bottom of the table, select number of items per page as 240
+- Click on the first row of the table
+
+If the script is failed, use implicit wait to increase the waiting time and re-run to see if the script is passed or not.

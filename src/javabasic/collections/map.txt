@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=nZggJ_MlvAU&t=732s
+
+- Give 1 example of when we should use Map in test automation
+- Create a HashMap<String, Son>
+- Add 3 entries to this map, the value should be an instance of Son and the key should be the name of this instance
+- Loop through the map and print out son and father name
+- Add more instances to the first map
+- Create a HashMap<String, ArrayList<Son>>, the key should be the father name and the value should be the list of Son
+- Loop through the first map to add appropriate entries to the second map

@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=DulrIs_aVKI
+
+- Give 1 example of when we should use Set and 1 example of when we should use List in test automation
+- Create a HashSet with generic type Son (created in previous exercise)
+- Add 3 instances of Son class to this set
+- Use 3 different way (for with index, for with : and while) to call each instance's """"introduction"""" method
+- Create a Son variable and assign a new instances of Son class with same name and father name as an instance already added to the set
+- Add this variable to the set
+- Print the set length, is it 3 or 4? If 3, why? And if 4, why when we have 2 instances with same name and father name?
+- Add the variable again to the set, print the set length. Is it increased by 1? If yes, why? If no, why?

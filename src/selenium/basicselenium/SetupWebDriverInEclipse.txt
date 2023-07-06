@@ -1,0 +1,4 @@
+Link to video: https://www.youtube.com/watch?v=FVwSjBXb20o
+
+Follow the instruction in the video to add the selenium-server-standalone jar file (choose ver3) to tim-selenium-workshop project.
+Create a class, in the main method, follow the instruction to setup webdriver and launch Google page.

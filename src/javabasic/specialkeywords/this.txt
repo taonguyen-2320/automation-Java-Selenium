@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=o0DR7MPguEg
+
+- Update the parameter name of constructor of Father and Son class to ""name"". Update the constructor body to assign the ""name"" value to the class ""name"" variable
+- Create a method in Son class called setName, also have a parameter called ""name"", in the body, assign that parameter value to the class ""name"" variable

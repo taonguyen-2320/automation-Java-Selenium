@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=CO5yczwQZFU&t=317s
+https://www.youtube.com/watch?v=0vDscoOZwVY
+
+- Remove the ""public"" modifier from the imported class modifier in the previous exercise and see what happens in the class that imports this class
+- Create a class named Cat, create 4 methods and 4 class variables with 4 access modifier: public, default, private and protected. Give them meaningful names to demonstrate cat attributes and actions.
+- Create another class in the same package, create the main method in this class. Try to create a new instance of Cat class and see which methods/variables can be access in this class.
+- Create another class in the different package, create the main method in this class. Try to create a new instance of Cat class and see which methods/variables can be access in this class.

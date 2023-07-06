@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=bwVkWXtvcTg
+
+- Create an array that stores your teammates' names and assign values for each index, then print the second element value
+- Create an array that stores all your family members' ages and assign value directly for it, then print the array length
+
+https://www.youtube.com/watch?v=3kP682nvWik
+- Use For loop and While loop to print all the values in the two arrays above
+- Create a 2-dimension array of String that store info of employees. The first dimension represents an employee, and the second one represents information of that employee: first name, last name, age, title.
+- Assign proper value for the array
+- Use For loop to print values of the array
+- Create a random 3-dimension array of integer and assign value directly for it, then use the While loop to print all of its values

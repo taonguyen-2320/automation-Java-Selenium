@@ -1,0 +1,18 @@
+Videos:
+- https://www.youtube.com/watch?v=lebJAYfZ_aM
+- https://www.youtube.com/watch?v=8LB_Zs9Ohg4
+
+Go to PA Test and login. 
+- At the homepage, mouse hover on View feedbacks -> Search all and then click to open Search All Feedbacks page
+- Select "Feedbacks for me" in the View option dropdown list
+- Click Search button
+- Print out the text at the bottom right corner of the table: "View xxx of xxx"
+- Keydown the Ctrl key, then click on the Provide feedback menu (Remember to keyup once done)
+- Switch to new window
+- Switch to the frame Feedback create by using web element
+- Click on the body and type some text
+- Copy and paste the text 10 times
+- Switch to the parent element and click on Save button
+- Switch to the first window
+- Click search button again
+- Print out the text at the bottom right corner of the table: "View xxx of xxx" to see the difference now

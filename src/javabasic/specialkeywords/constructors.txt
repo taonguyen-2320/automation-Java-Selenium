@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=KHoBImU0nVE
+
+- Create a class called Circle with a variable called radius with type float
+- In this class, create a constructor receiving a float argument and in the body, set the radius variable with that parameter
+- Create a main method, instantiate a new Circle instance with no argument constructor, is it allowed?
+- Add a float into the constructor calling, then print the radius of this Circle instance
+- Create another constructor with no argument, in the body, set the radius variable with value 2.0
+- In the main method, instantiate another Circle instance with no argument constructor, is it allowed now?
+- Print the radius of the second Circle instance
+- Beside setting directly the default value to the radius in the no argument constructor, are there any other ways to do so?

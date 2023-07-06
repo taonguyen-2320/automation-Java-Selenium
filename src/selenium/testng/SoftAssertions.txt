@@ -1,0 +1,6 @@
+Reference Video: https://www.youtube.com/watch?v=VPr6Sn4Im2E&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=65
+
+-----
+Update the LoginSuccessfullyTests class with soft assert:
++ verify title equals "Home | PA Tool"
++ verify the url contains "home"

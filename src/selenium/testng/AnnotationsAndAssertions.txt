@@ -1,0 +1,72 @@
+Reference videos: 
+- Annotations: https://www.youtube.com/watch?v=o-VguiLYvHw&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=63
+- Hard Assertion: https://www.youtube.com/watch?v=5pykBxm7n0E&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=64
+
+
+Create 3 classes:
+1. BaseTest:
+- @BeforeTest:
++ Write method to init a new browser
++ Maximize browser
++ Open url "http://192.168.59.48:8080/"
+- @AfterTest
++ Close/quit browser
+
+2. LoginSuccessfullyTests extends BaseTest
+- declare variables: username, password, element locators
+- @BeforeMethod
++ set valid value for username, password
+- @Test
++ select tab "Login By Credentials"
++ enter username, password -> Login
++ verify title equals "Home | PA Tool"
+
+3. LoginUnsuccessfullyTests extends BaseTest
+- declare variables: username, password, element locators
+- @BeforeMethod
++ set invalid value for username, password
+- @Test
++ select tab "Login By Credentials"
++ enter username, password -> Login
++ verify title not equals "Home | PA Tool"
+
+
+Example:
+
+public class BaseTest {
+	protected String browser = "Chrome";
+	protected String url = "http://192.168.59.48:8080/";
+
+	protected static WebDriver driver;
+
+	@BeforeTest
+	public void initTest() {
+		driver = ...;
+		driver...;
+		driver.get(url);
+	}
+
+	@AfterTest
+	public void endTest() {
+		driver...;
+	}
+}
+
+public class LoginSuccessfullyTests extends BaseTest {
+	private String username;
+	private String password;
+
+	private By btnLogin = ...;
+
+	@BeforeMethod
+	public void setData() {
+		username = ...;
+		...
+	}
+
+	@Test
+	public void loginSuccessfully() {
+		....
+
+	}
+}

@@ -1,0 +1,37 @@
+Reference videos:
+Inheritance: https://www.youtube.com/watch?v=Ou6d_e4ur3A&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=104
+
+--------
+
+1. Is there an error? If not, what is the output?
+Else, fix and provide output
+
+class A {
+    public void hello() {
+        System.out.println("A.hello()");
+    }
+    
+    public void goodbye() {
+        System.out.println("A.goodbye()");
+    }
+}
+
+class B extends A {
+    public void introduce() {
+        System.out.println("B.introduce()");
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        B b = new B();
+        b.hello();
+        b.introduce();
+        b.goodbye();
+        
+        A a = new B();
+        a.hello();
+        a.introduce();
+        a.goodbye();
+    }
+}

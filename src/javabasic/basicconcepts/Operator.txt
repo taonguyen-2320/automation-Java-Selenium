@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=xifhdrfQrxE&t=827s
+
+- Declare a variable that holds total slots for booking at a hospital, assign a number for it
+- Declare a variable that holds booked slots, assign a number for it
+- Declare a variable that holds available slots, use total slots and booked slots to calculate value for this variable
+- Declare a variable that holds available slots ratio against total slots, have a proper calculation for it
+- Declare a boolean variable that shows if the available slots ratio is less than or equals to 0.1
+- Declare a variable that shows if the above statement is true OR the available slot is less than 10

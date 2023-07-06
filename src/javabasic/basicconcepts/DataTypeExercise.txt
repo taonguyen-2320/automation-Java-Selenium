@@ -1,0 +1,6 @@
+Reference video:
+https://www.youtube.com/watch?v=I4Ayicxufmg
+
+- Create a variable for each primitive data type
+- Create several variable for non-primitive data type
+- Go to the javadoc page for String class and explore its methods. Choose 1 random method and create a multi-line comment in your code explaining what that method does

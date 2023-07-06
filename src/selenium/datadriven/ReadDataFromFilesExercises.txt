@@ -1,0 +1,10 @@
+Reference Video: 
+- https://www.youtube.com/watch?v=55pyFTSLdx0&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=60
+- https://www.youtube.com/watch?v=WyScJoiaM_8&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=117
+
+-----
+1. Rewrite the main method in exercise # 3 in basicseleniumn > WebDriverInterfaceMethodsExercises.txt:
+- Instead of setting the hardcode value (browser, url, testUsername, testPassword), please create a properties file and read the data from it
+
+2. Rewrite the main method in exercise # 3 in basicseleniumn > WebDriverInterfaceMethodsExercises.txt:
+- Instead of setting the hardcode value (browser, url, testUsername, testPassword), please create a csv file and read the data from it

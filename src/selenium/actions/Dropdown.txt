@@ -1,0 +1,16 @@
+Single select: https://www.youtube.com/watch?v=nrqVGAV51Fw
+
+ + Go to PA Test, login, then navigate to http://192.168.59.48:8080/Feedbacks/ExportFeedbacks/
+ + Use 3 different types of select (by index, by value, by visible text) to select a value from single select dropdown list Export option
+
+Multiple select: https://www.youtube.com/watch?v=FeVfSCyG6qc&t=128s
+
+ + Go to https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select_multiple
+ + For the multiple select dropdown list "Choose a car":
+	- Create a Select instance
+	- Print the number of options
+	- Print the text of all options
+	- Select 3 different options by 3 method: by index, by value and by visible text
+	- Print the text of 3 selected option
+	- Deselect the first selected option
+	- Print the text of the current first selected option

@@ -1,0 +1,10 @@
+Video: https://www.youtube.com/watch?v=x6ei6WOfQBo
+
+Go to PA Test, login and navigate to http://192.168.59.48:8080/Feedbacks/SearchFull?pendingOnly=False
+
+- Select Feedbacks of my Subordinates
+- Click Search button
+- In the bottom of the table, select number of items per page as 240
+- Wait until the loading text is no longer visible
+- Wait until the first row of the table is clickable
+- Wait until the number of rows in the table is 240

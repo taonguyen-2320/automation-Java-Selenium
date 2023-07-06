@@ -1,0 +1,6 @@
+Reference videos:
+- Install TestNG in Eclipse IDE: https://www.youtube.com/watch?v=KegGpNMhGF0&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=61
+- Write TCs using TestNG: https://www.youtube.com/watch?v=jfd4SKAhlDg&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=62
+
+---------------
+Write TCs login http://192.168.59.48:8080/ successfully and unsuccessfully in the same class. Use Priority attribute

@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=Qagrzh40BvU
+
+- Create a parent class called Father with a variable called name, set a default value for it
+- Create a child class called Son that extends the Father, also create a variable called ""name"" and set a default value for it
+- Create a method called ""introduction"" in the Son class which prints out this statement: ""Hi, my name is [the son name] and my father name is [the father name].
+- Create a main method, instantiate a new Son instance and call ""introduction"" method
+- Remove the default value in the ""name"" variable in Father class, create a constructor receiving a String argument and set that argument value to ""name"" variable. Can the code be compiled now? Are there any errors and if so, what is it saying? What does the IDE suggest?
+- In the Son class, create a constructor receiving an argument called fatherName, call the Father constructor and pass that argument
+- Removing the default value of the Son's ""name"" variable, add a new argument in the constructure called sonName, assign the value of that argument to ""name"" variable
+- Update the main method to have a valid call to Son constructor. Check if the ""introduction"" method prints correct content.

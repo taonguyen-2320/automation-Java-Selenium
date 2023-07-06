@@ -1,0 +1,7 @@
+Reference Video: https://www.youtube.com/watch?v=eFFwXgDWKjY&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=55
+
+------
+
+Login PA system > Select Current PA Program > Select Review Org-Chart
+- Print all records in Appraisee grid
+- Each row data will be printed in 1 line

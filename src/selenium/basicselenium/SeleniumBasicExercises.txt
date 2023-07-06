@@ -1,0 +1,9 @@
+Reference video: https://www.youtube.com/watch?v=EwbTx9xvR3U&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=6
+
+------
+
+Create a class with main method that will open PA system http://192.168.59.48:8080/ in different browsers (Chrome, FF, Edge)
+Notes:
+- Please connect to VPN before run the main method
+- Use get() method to open the URL and close() to close the browser
+- Please upload the BrowserDrivers files (.exe) along with your class

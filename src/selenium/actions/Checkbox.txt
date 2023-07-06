@@ -1,0 +1,11 @@
+Video: https://www.youtube.com/watch?v=hqxJHwgwnDs
+
+- Checkbox:
+   + Go to PA Test, login and navigate to http://192.168.59.48:8080/Feedbacks/SearchFull?pendingOnly=False
+   + Select and then deselect those checkboxes: Draft, Pending, Approved and Disapproved
+   + Print the number of checkboxes in the page
+   + Using the same method instructed in the video, find all the buttons in the page and print their text
+
+- Scrolling:
+   + Go to PA Test, login
+   + At the home page, scroll to the footer

@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=y-xsceUyzHA&t=616s
+
+- Create a package with format com.kms.[your name], go to file explorer and observe how the folders are created
+- Create a class inside new package with a random method
+- Create a class inside this package, then try to import a class from the first package and call its method

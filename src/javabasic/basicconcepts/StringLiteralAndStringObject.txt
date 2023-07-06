@@ -1,0 +1,8 @@
+Reference video:
+https://www.youtube.com/watch?v=WMnn9Scr9ZY
+
+Based on what we learned in this video, if I have a class called Employee. Then I create 2 new instances of this class:
+    Employee emp1 = new Employee(""Phuong"", ""Lam"");
+    Employee emp2 = new Employee(""Phuong"", ""Lam"");
+    System.out.println(emp1==emp2);
+What will be the output result? And why?

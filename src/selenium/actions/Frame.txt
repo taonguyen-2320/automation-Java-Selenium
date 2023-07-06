@@ -1,0 +1,7 @@
+Video: https://www.youtube.com/watch?v=2v-8eUaR29M
+
+Go to PA Test and login, navigate to http://192.168.59.48:8080/Feedbacks/Create/
+
+- Switch to the frame Feedback create by using web element
+- Click on the body and type some text
+- Switch to the parent element and click on Save button

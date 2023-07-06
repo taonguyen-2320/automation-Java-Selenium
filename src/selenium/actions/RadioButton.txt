@@ -1,0 +1,10 @@
+Video: https://www.youtube.com/watch?v=xvf74By9dwg
+
+Go to PA Test and login, navigate to http://192.168.59.48:8080/Feedbacks/Create/
+
+- Find all the radio buttons' id for Feedback Type field
+- Printout the default selected option id
+- Select the other option
+- Again, printout the selected option id
+
+Advance: Try to group duplicate code into method

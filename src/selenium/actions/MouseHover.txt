@@ -1,0 +1,5 @@
+Video: https://www.youtube.com/watch?v=ar1fDvovGXs
+
+Go to PA Test and login. Try to nagivate to the below page by using the top menu:
+- View Feedbacks > Search Pending
+- Current PA Program > Providing feedback

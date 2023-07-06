@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=S2Q0wgbAWas
+
+- Create an ArrayList with generic type Son (created in previous exercise)
+- Add 3 instances of Son class to this array
+- Use 3 different way (for with index, for with : and while) to call each instance's ""introduction"" method
+- Create an ArrayList with generic type Father
+- Add 1 instance of Father and 1 instance of Son to this array
+- Why can we add the instance of Son to a Father array?
+- Find another way to loop through the list without using looping keywords like ""for"" or ""while""

@@ -1,0 +1,8 @@
+Reference videos:
+- https://www.youtube.com/watch?v=b6PI-DsRJl0
+- https://www.youtube.com/watch?v=Ygc1VjAsLNk
+
++ Create the first class with your name and main method
++ Create several instances of your class
++ Print your own name & KMS ID to the console
++ Create one single comment and one multi-line comment

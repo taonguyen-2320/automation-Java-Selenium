@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=S6auH05xksc
+
+- Create a final class, method, class variable and method variable
+- Create a not final class variable called variableA
+- Create a main method in this class, create a final variable called finalInstance with type of this class and instantiate a new instance. Then set value for variableA. Is it allowed?
+- Assign a new instance for finalInstance. Is it allowed?
+- Why even though this is a final variable, we can still change the state of the instance (i.e: change the class variable value), but we cannot assign a new instance to it?

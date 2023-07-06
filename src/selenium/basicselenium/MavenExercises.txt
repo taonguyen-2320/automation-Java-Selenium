@@ -1,0 +1,24 @@
+Reference videos: 
+- Install Maven: https://www.youtube.com/watch?v=4gHSwvs0HiA&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=7
+- Manage Dependencies with Maven: https://www.youtube.com/watch?v=qFy6uoTXK30&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=8
+- WebDriver Manager: https://www.youtube.com/watch?v=5fBZy8Tevbc&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=9
+
+------
+
+1. Exercise: Install Maven on your machine 
+- Expected result: Be able to call "mvn --version" from anywhere in the command line
+
+
+2. Create a Maven project with selenium 4.4.0:
+- Group Id: com.kmsh
+- Artifact Id: FirstNameLastNameIdMaven
+- Version: 0.0.1-SNAPSHOT
+
+Replace FirstNameLastName with your first name, last name
+Replace Id with your KMS Id
+
+
+3. Create a class in the above Maven project with the main method that will open the PA system http://192.168.59.48:8080/ in different browsers (Chrome, FF, Edge)
+Notes:
+- Please connect to VPN before running the main method
+- Use get() method to open the URL and close() to close the browser

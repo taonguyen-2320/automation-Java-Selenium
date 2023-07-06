@@ -1,0 +1,30 @@
+Note:
+The csv file separator will be \t. We don't use comma as we have an error message with comma inside, so to make life easier, we use another character.
+Login unsuccessfully:
+
+Read the csv file and loop through each row. In the loop:
+	- Get username, password and message in the row
+	- Instantiate driver, go to login page
+	- Login with provided username, password
+	- Assert error message (There are 2 types of error message in the login page: The popup (at the top) or the red error message -> You need to try to get appropriate element and compare with expected text)
+	- Close the driver
+	
+Provide feedback:
+
+Read the csv file and loop through each row. In the loop:
+	- Get Provide FB for, Employee, Date and Content in the row
+	- Instantiate driver
+	- Login with default username password in the configuration file
+	- Navigate to Provide feedback page
+	- Select Provide FB for
+	- Enter and select employee (If provide FB for other)
+	- Enter date
+	- Enter Feedback content
+	- Click Save button
+	- Navigate to Search All Feedback
+	- Select Appropriate view option (Based on Provide FB for value)
+	- Click on the first row
+	- Click Open
+	- Switch to new window
+	- Assert Provide FB for, employee, date and content
+	- Close the driver

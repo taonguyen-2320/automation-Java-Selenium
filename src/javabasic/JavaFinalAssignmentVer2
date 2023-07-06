@@ -1,0 +1,71 @@
+Please create a java project for below requirements:
+
+In LuckyTokens system, there are 2 types of user: Host and Player. In each game, there's only 1 host but can have multiple players
+Both of types will have a given number of tokens:
+    - Player's token will be generated randomly from 1 to 5 when creating a new player.
+    - Host's token will be sum of every players token multiply with a random decimal value factor from 0.5 to 1.5, the result will always be rounded up
+    
+The game will have multiple rounds, in each round, each Player will take turn and trade token with the Host:
+1. In each turn, Player will have chance to generate a random number from -2 to 2. Number of chances = Number of Player's tokens. (the Player hasn't lost the token when generating random numbers).
+
+2. If the total of random number is equal 3, Player's tokens will be double. 
+
+3. If the total of random number is positive and not equal to 3, Player will receive the number of the tokens equal with the total number if it's equal or smaller than Host's tokens
+Else, Player will receive all of Host's tokens.
+The Host will lose the same amount that Player receives.
+
+4. If the total of random number is equal -3, Player's tokens will be divided by 2.
+
+5. If the total of random number is negative and not equal to -3, then Player will lost the the number of the tokens equal with the total number if it's equal or smaller than Player's tokens.
+Else, Player will lose all his tokens.
+The Host will receive the same amount that Player lost.
+
+6. If the total of random number is 0, then the game will continue, both Player and Host won't lose any tokens.
+
+Only the active user, who has total tokens greater than 0 could play the game.
+
+The game only ends when:
+- Host is inactive (Winner(s) is/are the remaining player(s)) OR
+- All the players are inactive (Winner is host)
+
+Please print out the tokens of Player and Host after each turn.
+And print out the winner!
+
+Pointing Notes:
+1. Please create class contains main method in src/test, and the others will be created in src/main.
+2. Consider creating Utility class for common methods that not specific to any object.
+3. How to get points:
+- Complete the assignment (push to git remote, create PR, able to run the test script with correct logic): 50 pts
+- Apply OOP concepts: 10 pts
+- Apply control flow statements: 10 pts
+- Apply accurate data types: 10 pts
+- Apply accurate access modifiers: 10 pts
+- Apply coding standards: 10 pts
++ Naming convention
++ NO duplicate code
++ NO redundant code/comments
++ Code alignment
+
+Example:
+- The game has 3 players and 1 host
+
+- At the initial phase, after randomization:
+   + Player 1 (P1) has 2 tokens, Player 2 (P2) has 1 token and Player 3 (P3) has 5 tokens.
+   + The factor is randomized as 1.3. So the Host (H) has (2+1+5)*1.3 = 10.4 -> rounded up to 11 tokens.
+   
+- The game begins:
+   + Round 1:
+      - P1: generated number is -1 and 2 -> total is 1 -> P1's token: 2+1=3, H's token: 11-1=10
+      - P2: generated number is -2 -> total is -2 -> P2's token: 1-2=-1 (inactive), H's token: 10+1=11
+      - P3: generated number is -3, -2, 1, 0, 3 -> total is -1 -> P3's token: 5-1=4, H's token: 11+1=12
+   + Round 2:
+      - P1: generated number is: -3, 2, 1 -> total is 0 -> P1's token: 3, H's token: 12
+      - P3: generated number is: 3, 2, -1, 3 -> total is 7 -> P3's token: 3+7=10, H's token: 12-7=5
+   + Round 3:
+      - P1: generated number is -3, 2, -2 -> total is -3 -> P1's token: 3/2=1 (get the integer part only), H's token: 5
+      - P3: generated number is 3, 2, 0, 0, 0, 1, -3, 1, -2, -1 -> total is 1 -> P3's token: 10+1=11, H's token: 5-1=4
+   + Round 4:
+      - P1: generated number is -3 -> total is -3 -> P1's token: 1/2=0 (inactive), H's token: 4
+      - P3: total is 7 -> P3's token: 11+4=15, H's token: 4-4=0 (inactive)
+
+GAME STOPS HERE. Winner is P3

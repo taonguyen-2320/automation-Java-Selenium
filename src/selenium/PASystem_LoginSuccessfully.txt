@@ -1,0 +1,15 @@
+Precondition:
+- VPN is connected
+
+Test steps:
+1. Access to http://192.168.59.48:8080/ 
+2. Click on the "Login By Credentials" tab
+2. Enter the correct username and password
+3. Click on the "Login" button
+
+Expected result:
+Login successfully. The home page is displayed.
+
+Test data:
+username: "thaovo"
+password: "kms"

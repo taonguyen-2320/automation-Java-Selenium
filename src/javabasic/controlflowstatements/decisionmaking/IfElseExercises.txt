@@ -1,0 +1,12 @@
+Reference videos:
+If Else: https://www.youtube.com/watch?v=qVet44v2DFg&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=89
+Ternary Operator: https://www.youtube.com/watch?v=LKYKyKoQXnw&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=89
+
+--------
+
+1. Take two int values from user and print greatest among them.
+
+2. A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+Ask user for quantity
+Suppose, one unit will cost 100.
+Judge and print total cost for user.

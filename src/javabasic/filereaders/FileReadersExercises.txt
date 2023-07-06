@@ -1,0 +1,13 @@
+Reference videos:
+Read Properties File: https://www.youtube.com/watch?v=r1lmy2WhnHs&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=114
+Read TXT and CSV File: https://www.youtube.com/watch?v=WyScJoiaM_8&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=117
+
+--------
+
+1. Reuse the methods in methods.MethodsExercises.txt #3, 
+but instead of hardcode string[] sampleStrings = {" ", "t", "te", "test"}, read data from TestData.properties file
+(Please use try catch to handle any exception could throw when reading a file)
+
+2. Repeat the exercise #1 with read data from TestData.txt file
+
+3. Repeat the exercise #1 with read data from TestData.csv file

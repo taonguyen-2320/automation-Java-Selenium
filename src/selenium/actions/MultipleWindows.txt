@@ -1,0 +1,11 @@
+Video: https://www.youtube.com/watch?v=D5Sd0MxhAD0
+
+Go to PA Test and login, navigate to http://192.168.59.48:8080/Feedbacks/Create/
+
+- Open a new tab using this line of code:
+    ((JavascriptExecutor)driver).executeScript("window.open()");
+- Switch to the second tab
+- Navigate to https://www.lipsum.com/feed/html
+- Find the element contains all the text, then get the text and store in a variable
+- Switch back to the first tab
+- Swith to the frame Feedback create and type in the variable value

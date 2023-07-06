@@ -1,0 +1,75 @@
+Reference videos:
+Encapsulation: https://www.youtube.com/watch?v=jkFw82fPs_w&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=103
+
+--------
+
+1. Will main method print "Congratulation!"?
+If no, please modify to print "Congratulation!" without update the if-else clauses in main method
+
+
+public class EncapsulationDemo {
+	public static void main(String args[]) {
+		LuckyDraw luckyDraw = new LuckyDraw();
+		
+		if (luckyDraw.isLucky()) {
+			System.out.println("Congratulation!");
+		} else {
+			System.out.println("Good luck next time.");
+		}
+    }
+}
+
+class LuckyDraw {
+    private int employeeId;
+    private int employeeCode;
+    private int employeeAge;
+
+    public boolean isLucky() {
+    	if (employeeId > 0 && employeeCode > 0 && employeeAge > 20) {
+    		int total = employeeId + employeeCode - employeeAge;
+    		return total % 2 == 0;
+    	} else {
+    		return false;
+    	}
+    }
+    
+    public void setEmployeeId(int id) {
+    	if (id > 0) {
+    		employeeId = id;
+    	} else {
+    		System.out.println("Invalid Employee Id");
+    	}
+    }
+    
+    public void setEmployeeAge(int age) {
+    	if (age > 20 && age < 60) {
+    		employeeAge = age;
+    	} else if (age <= 20) {
+    		System.out.println("Too young!");
+    	} else {
+    		System.out.println("Too old!");
+    	}
+    }
+}
+
+2. Is there an error? If not, what is the output?
+class Complex {
+    private final double re;
+    private final double im;
+
+    public Complex(double re, double im) {
+        this.re = re;
+        this.im = im;
+    }
+
+    public String toString() {
+        return "(" + re + " + " + im + "i)";
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Complex c = new Complex(10, 15);
+        System.out.println("Complex number is " + c);
+    }
+}

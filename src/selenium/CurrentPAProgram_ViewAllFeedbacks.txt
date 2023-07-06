@@ -1,0 +1,14 @@
+Precondition:
+- VPN is connected
+- Login PA system successfully
+
+Test steps:
+1. Move hover "Current PA Program" menu, click on "360° Feedback Request" option
+2. Select an employee, click on "View All Feedbacks" button
+
+Expected result:
+"PAFBRequire Details" page is opened in new tab
+
+Test data:
+username: "thaovo"
+password: "kms"

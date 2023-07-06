@@ -1,0 +1,7 @@
+Reference video:
+https://www.youtube.com/watch?v=T7H7iHoMmak
+
+- In the main method, create a variable that stores your age and a variable that stores your friend age, then print out 2 lines: the first line shows two ages, the second line shows your total age.
+- Create a class called Employee, then create multiple instance variable that you think demonstrating an employee attribute
+
+For all variables, give them a proper datatype and name

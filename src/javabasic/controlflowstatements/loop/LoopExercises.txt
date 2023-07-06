@@ -1,0 +1,67 @@
+Reference videos:
+While Loop: https://www.youtube.com/watch?v=IH13-I3Ycz4&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=91
+Do While Loop: https://www.youtube.com/watch?v=m1Ux6PGfGj4&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=92
+For Loop: https://www.youtube.com/watch?v=EYdIqHkKHfI&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=93
+Break and Continue: https://www.youtube.com/watch?v=W7i9NpKLtFQ&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=94
+Nested Loop: https://www.youtube.com/watch?v=EWE9MiK_c4c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&index=95
+
+--------
+
+1. Modify the code to print i 3 times
+public static void main(String[] args) {
+    int i;
+    while(i) {
+        System.out.print(i);
+    }
+}
+
+2. Modify the code to print i at least 1 time
+public static void main(String[] args) {
+    int i = 0;
+    while(i > 0) {
+        System.out.print(i);
+    }
+}
+
+3. Modify the code to print all array elements, one in each line
+public static void main(String[] args) {
+    int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+    for(int i = 0; ; i++) {
+        System.out.print(i);
+    }
+}
+
+4. Modify the code in exercise 3 using enhanced for loop
+
+5. Modify the code in exercise 3 using while
+
+6. Is below code output the same with exercise 3?
+public static void main(String args[]) {
+    int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+    int index = 0;
+    do {
+        System.out.println(numbers[index++]);
+    } while (index < numbers.length);
+}
+
+7. What is the output?
+public static void main(String args[]) {
+    int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+    for(int i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 == 0) {
+            continue;
+        }
+        if (i == 5) {
+            break;
+        }
+        System.out.println(numbers[i]);
+    }
+}
+
+8. Modify the code in exercise 3 to only print the even number that has 1 digit
+
+9. Modify the code in exercise 8 to return the below output:
+12
+1234
+123456
+12345678

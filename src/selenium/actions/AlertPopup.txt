@@ -1,0 +1,9 @@
+Video: https://www.youtube.com/watch?v=7T_E_mN1pJQ&t=857s
+
+Go to https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt
+
+- Click Try it button
+- Cancel the prompt alert
+- Click Try it button again
+- Enter your name to the alert
+- Printout the Hello.. text
