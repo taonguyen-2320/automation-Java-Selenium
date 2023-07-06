@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="javabasic/src/main/objects/|javabasic/src/main/objects/Player.java|javabasic/src/main/objects/User.java|javabasic/src/main/utils/|javabasic/src/test/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/taonguyen/Downloads/Sele/import/selenium-server-4.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
