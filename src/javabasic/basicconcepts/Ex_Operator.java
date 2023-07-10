@@ -1,6 +1,6 @@
 package javabasic.basicconcepts;
 
-public class Operator {
+public class Ex_Operator {
 
 	public static void main(String[] args) {
 

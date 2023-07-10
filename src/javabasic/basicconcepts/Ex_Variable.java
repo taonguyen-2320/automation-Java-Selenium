@@ -1,6 +1,6 @@
 package javabasic.basicconcepts;
 
-public class Variable {
+public class Ex_Variable {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

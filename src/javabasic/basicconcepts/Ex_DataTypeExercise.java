@@ -1,6 +1,6 @@
 package javabasic.basicconcepts;
 
-public class DataTypeExercise {
+public class Ex_DataTypeExercise {
 
 	public static void main(String[] args) {
 		// Primitive Data Types
@@ -18,7 +18,7 @@ public class DataTypeExercise {
 		// Non-Primitive Data Types
 		String str = new String();
 		
-		DataTypeExercise datatype = new DataTypeExercise();
+		Ex_DataTypeExercise datatype = new Ex_DataTypeExercise();
 		
 	}
 

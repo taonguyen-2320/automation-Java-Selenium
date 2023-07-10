@@ -1,15 +1,15 @@
 package javabasic.basicconcepts;
 
-public class StringLiteralAndStringObject {
+public class Ex_StringLiteralAndStringObject {
 
-	public StringLiteralAndStringObject(String string, String string2) {
+	public Ex_StringLiteralAndStringObject(String string, String string2) {
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
 
-		StringLiteralAndStringObject emp1 = new StringLiteralAndStringObject("Phuong", "Lam");
-		StringLiteralAndStringObject emp2 = new StringLiteralAndStringObject("Phuong", "Lam");
+		Ex_StringLiteralAndStringObject emp1 = new Ex_StringLiteralAndStringObject("Phuong", "Lam");
+		Ex_StringLiteralAndStringObject emp2 = new Ex_StringLiteralAndStringObject("Phuong", "Lam");
 		
 		System.out.println(emp1 == emp2);
 		System.out.println(emp1.equals(emp2));
