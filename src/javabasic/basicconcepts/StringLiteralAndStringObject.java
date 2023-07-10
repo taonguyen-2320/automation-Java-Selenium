@@ -22,8 +22,7 @@ public class StringLiteralAndStringObject {
 		
 		System.out.println(str1==str2);
 		System.out.println(str1==str3); // one avairiable and on object cannot =
-		System.out.println(str1.equals(str3));
-		
+		System.out.println(str1.equals(str3)); // equals() method compares the two given strings based on the content of the string
 
 	}
 
